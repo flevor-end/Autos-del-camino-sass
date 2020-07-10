@@ -8133,7 +8133,7 @@ h3 {
     border: 1px solid #ddd !important;
   }
 }
-.bg__slide {
+.carousel-item {
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -8145,7 +8145,7 @@ h1 {
   margin: 0;
   font-weight: 500;
   line-height: 1.29;
-  font-size: 45px;
+  font-size: 2.6em;
 }
 h1 h2 {
   color: #e7e7e7;
@@ -8179,6 +8179,14 @@ a {
 .btn-outline-secondary:hover {
   background: #910a2d;
   color: #f5f5f5;
+}
+
+@media all and (max-width: 768px) {
+  .carousel-item {
+    height: auto;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

@@ -1,4 +1,4 @@
-.bg__slide {
+.carousel-item {
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -10,7 +10,7 @@ h1 {
   margin: 0;
   font-weight: 500;
   line-height: 1.29;
-  font-size: 45px;
+  font-size: 2.6em;
   h2 {
     color: $grayMedium;
   }
@@ -43,4 +43,12 @@ a {
 .btn-outline-secondary:hover {
   background: $danger;
   color: $graylight;
+}
+
+@media all and (max-width: 768px) {
+  .carousel-item {
+    height: auto;
+    background-position: center;
+    background-size: cover;
+  }
 }
