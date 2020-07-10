@@ -3,252 +3,308 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fabian Pedraza Diseño</title>
     <link rel="stylesheet" href="dist/css/bootstrap.css" />
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Autos del Camino</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto justify-content-end w-50">
-          <li class="nav-item active pl-md-5">
-            <a class="nav-link" href="#">Autos <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item pl-md-5">
-            <a class="nav-link" href="#">Noticias</a>
-          </li>
-          <li class="nav-item dropdown pl-md-5">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              FAQ´s
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item pl-md-5">
-            <a class="nav-link disabled" href="#">Contacto</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Autos del Camino</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-auto ">
+            <li class="nav-item active pl-md-5">
+              <a class="nav-link" href="#header">Autos</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#noticias">Noticias</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#faqs">Faq´s</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
       </div>
     </nav>
     <!-- Navbar -->
 
     <!-- Slider -->
-    <header>
+    <header id="header">
       <div
         class="bg__slide"
         style="background-image: url('img/01_mazda6.jpg');"
           >
       <div
-        class="container d-flex flex-column justify-content-center h-50 text-white align-items-center"
+        class="container d-flex flex-column justify-content-center h-50 text-white align-items-center header-content-top"
       >
-        <h3>The cure for the common drive</h3>
+        <h4>The cure for the common drive</h4>
         <h1>the class defying 2018 mazda 6</h1>
       </div>
     </header>
     <!-- Slider -->
 
     <!-- Seccion-1 -->
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-white">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Punny headline</h1>
-        <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-      </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
-      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
-    </div><!-- Seccion-1 -->
-
-    <!-- Seccion-2 -->
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden col-md-6">
-          <div class="bg-light box-shadow mx-auto" style="width: 100%; height: 500px; border-radius: 21px 21px 0 0;background-image: url('img/01_mazda6.jpg"></div>
+    <section id="about">
+      <div class="text-center bg-white">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+          <h4 class="mb-2">mazda </h4>
+          <p class="mb-3">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
+          <a class="btn btn-outline-secondary btn_section" href="#">Coming soon</a>
+          <a class="btn btn-primary btn_section" href="#">welcome</a>
         </div>
-        <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-left text-dark overflow-hidden col-md-6 row align-items-center">
-          <div class="col-md-6">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi ab eius, facere sapiente harum omnis veniam illum.</p>
+        <div class="product-device box-shadow d-none d-md-block"></div>
+        <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+      </div>
+    </section><!-- Seccion-1 -->
+
+    <!-- Noticias -->
+    <section id="noticias" >
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ">
+        <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="not_1_img">
+          <img src="img/07_mazda6_1610.ts.1610310402040070.jpg" alt="" class=" bg-light box-shadow mx-auto" style="width: 80%; height: 400px; border-radius: 21px 21px 0 0; max-width: 900px;"></div>
+        </div>
+        <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-left text-primary overflow-hidden">
+          <div class="not_1_content col-md-6">
+            <h2 class="mb-2">Another headline</h2>
+            <p class="mb-2">And an even wittier subheading.</p>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi ab eius, facere sapiente harum omnis veniam illum.</p>
+            <a class="btn btn-outline-secondary btn-lg mb-5 btn_section" href="#" >Read More</a>
           </div>
         </div>
-      </div><!-- Seccion-2 -->
+      </div>
+    </section>
 
-    <!-- Seccion-3 -->
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden col-md-6 row align-items-center">
-        <div class="col-md-6">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime veniam nihil laudantium laborum assumenda eius alias.</p>
+    <!-- Noticias 2 -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3">
+      <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-left text-primary overflow-hidden">
+          <div class="not_1_content col-md-6">
+            <h2 class="mb-2">Another headline</h2>
+            <p class="mb-2">And an even wittier subheading.</p>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi ab eius, facere sapiente harum omnis veniam illum.</p>
+            <a class="btn btn-outline-secondary btn-lg mb-5 btn_section" href="#" >Read More</a>
+          </div>
         </div>
-      </div>
-      <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden col-md-6">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+      <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="not_1_img width: 80%">
+          <img src="img/09_mazda6_1610.ts.1610310402040830.jpg" alt="" class=" bg-light box-shadow mx-auto" style="width: 80%; height: 400px; border-radius: 21px 21px 0 0; max-width: 900px;"></div>
         </div>
-        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; 
-        border-radius: 21px 21px 0 0;"></div>
-      </div>
-    </div>  <!-- Seccion-3 -->
+    </div>
+    </div>
 
-    <!-- Seccion-4 -->
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden col-md-6">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+    <!-- Noticias 3 -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ">
+      <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="not_1_img bg-primary box-shadow mx-auto">
+                    <img src="img/02_mazda6_1610.ts.1610310402042070.jpg" alt="" class=" bg-light box-shadow mx-auto" style="width: 80%; height: 350px; border-radius: 21px 21px 0 0; max-width: 900px;">
+
         </div>
-        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md-6">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left text-primary overflow-hidden">
+        <div class="not_1_content col-md-6">
+          <h2 class="mb-2">Another headline</h2>
+          <p class="mb-2">And an even wittier subheading.</p>
+          <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores unde nisi neque ad saepe illo voluptatibus ex hic quasi fugit.</p>
+          <a class="btn btn-outline-secondary btn-lg mb-5 btn_section" href="#" >Read More</a>
         </div>
-        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
-    </div>  <!-- Seccion-4 -->
+    </div>
 
     <!-- faqs -->
-    <div class="container py-5">
-      <div id="accordion">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Collapsible Group Item #1
-              </button>
-            </h5>
-          </div>
-      
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    <section id="faqs">
+      <div class="container py-5">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h4>Faq Item #1</h4>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Collapsible Group Item #2
-              </button>
-            </h5>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h4>Faq Item #2</h4>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Collapsible Group Item #3
-              </button>
-            </h5>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h4>Faq Item #3</h4>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div><!-- fags -->
+    </section>
 
     <!-- contacto -->
-    <div class="container py-5">
-      <div class="row align-items-center">
-        <form class="container">
-          <div class="row form-row">
-            <div class="form-group col">
-              <input type="text" class="form-control" placeholder="First name">
+    <section id="contacto">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <form class="container">
+            <div class="row form-row">
+              <div class="form-group col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="form-group col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
             </div>
-            <div class="form-group col">
-              <input type="text" class="form-control" placeholder="Last name">
+            <div class="row">
+              <div class="form-group col">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="form-group col">
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            <div class="row">
+              <div class="form-group col">
+                <select id="inputState" class="form-control">
+                  <option selected>City...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <select id="inputState" class="form-control">
+                  <option selected>Cc...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Numero de Documento">
+              </div>
+            </div>          
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="form-group col">
-              <select id="inputState" class="form-control">
-                <option selected>City...</option>
-                <option>...</option>
-              </select>
+            <button type="submit" class="btn btn-primary">Send</button>
             </div>
-            <div class="form-group col">
-              <select id="inputState" class="form-control">
-                <option selected>Cc...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="form-group col">
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Numero de Documento">
-            </div>
-          </div>          
-          <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-    </div><!-- contacto -->
+    </section>
 
     <footer>
       <div class="bg-dark  pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="row">
-          <div class="col-sm text-left text-white">
-            
-            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-          </div>
-          <div class="col-sm text-left text-white">
-            <h3>One of three columns</h3>
-            <ul>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Lorem ipsum dolor sit amet.</li>
-              <li>Lorem ipsum dolor sit amet.</li>
-              <li>Lorem ipsum dolor sit amet.</li>
-              <li>Lorem ipsum dolor sit amet.</li>
-            </ul>
-          </div>
-          <div class="col-sm text-left text-white">
-            <h3>One of three columns</h3>
-            <ul>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Lorem ipsum dolor sit amet.</li>
-              <li>Lorem ipsum dolor sit amet.</li>
-              <li>Lorem ipsum dolor sit amet.</li>
-              <li>Lorem ipsum dolor sit amet.</li>
-            </ul>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm text-left text-white">
+              
+              <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="col-sm text-left text-white">
+              <h4>One of three columns</h4>
+              <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div>
+            <div class="col-sm text-left text-white">
+              <h4>One of three columns</h4>
+              <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </footer>
+<!-- bootstrap 4 script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- script -->
+<script>
+  window.sr = ScrollReveal();
+  sr.reveal('.navbar', {
+    duration: 2000,
+    origin: 'bottom'
+  });
+  sr.reveal('.header-content-top', {
+    duration: 5000,
+    origin: 'bottom',
+    distance: '30px'
+  });
+  sr.reveal('.btn_section', {
+    duration: 2000,
+    origin: 'bottom',
+    delay: 1000
+  });
+  sr.reveal('#about', {
+    duration: 2000,
+    origin: 'left',
+    distance: '300px',
+    viewFactor: 0.2
+  });
+  sr.reveal('.not_1_img', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '300px',
+  });
+  sr.reveal('.not_1_content', {
+    duration: 2000,
+    origin: 'right',
+    distance: '300px',
+  });
+  
 
+  // smoth scrolling
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+  
+</script>
   </body>
 </html>
